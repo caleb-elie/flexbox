@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.ri-mail-fill, .ri-facebook-fill ,.ri-linkedin-box-fill, .ri-home-2-line{
+    color: rgb(63, 29, 6);
+    width: 28px;
+}
+
+header{
+    margin: 20px;
+}
+body{
+    background-image:url(https://preview.redd.it/my-cozy-mac-setup-for-programming-thoughts-v0-1y0b9tlz6vda1.png?width=640&crop=smart&auto=webp&s=e1adf31a96dfd1f9cd936fc8cfd86506f7173171);
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+      background-position: center;
+      background: linear-gradient(to right, #000);
+    height: 100vh; 
+}
+
+
+.navbar .navlink{
+   list-style-type: none;
+   height: 20vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar .navlink li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: flex-end;
+
+}
+
+.navbar li{
+    float: right;
+    margin-right: 40px;
+}
+
+.navbar a:hover{
+    background-color: rgb(233, 218, 213);
+    transition: 0.5s;
+    border-radius: 50px;
+}
+h1{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin-bottom: 45px;
+}
+
+p{
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 19px;
+    color:white;
+    width: 50%;
+}
+
+h3{
+text-align: center;
+margin-top: 45px;
+color: white;
+}
+
+.check{
+    border-radius: 50px;
+    margin-top: -55px;
+}
+input{
+    border-radius: 100px;
+    margin-right:10px;
+}
+button{
+    /* border-radius: 10px; */
+}
+
+.dd{
+    color: white;
+    font-style: italic;
+}
+
+#foot{
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color:white;
+
+}
